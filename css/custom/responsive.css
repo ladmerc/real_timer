@@ -1,0 +1,60 @@
+@media screen and (max-width: 407px) {
+
+  header {
+    height: 100px;
+  }
+
+  h1 {
+    font-size: .7em;
+  }
+
+  h5 {
+    font-size: .5em;
+  }
+
+  #sidebar {
+    display: none;
+  }
+}
+
+
+
+
+@media screen and (min-width: 660px) {
+
+  #menu {
+    display: none;
+  }
+
+  #content {
+    width: 60%;
+  }
+
+  #sidebar {
+    width: 20%;
+  }
+
+  #content li  {
+    width: 25%;
+    margin: 2%;
+  }
+
+  nav {
+    display: inherit;
+    text-align: center;
+    line-height: 2.5em;
+    float: right;
+    margin-top: -67px;
+  }
+
+  nav li {
+    margin: 0 .7em;
+    font-size: 1.7em;
+    font-weight: 800;
+  }
+
+  nav a.selected, nav a:hover {
+  color: #549cff;
+  }
+
+}
