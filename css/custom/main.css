@@ -1,0 +1,34 @@
+body {
+  background: rgba(0, 255, 0, 0.04);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: digital-7;
+}
+
+@font-face {
+  font-family: digital-7;
+  src: url("../../fonts/digital-7.ttf");
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 800;
+}
+
+h3 {
+  color: white;
+  position: relative;
+  bottom: -77px;
+}
+
+#timer {
+  text-align: center;
+  width: 20%;
+  margin: 5% auto;
+  font-size: 33px;
+  padding: 3%;
+  background: rgb(247, 243, 243);
+  box-shadow: 10px 10px 5px #888888;
+  pointer-events: none;
+}
